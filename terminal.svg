@@ -1,0 +1,57 @@
+<svg width="760" height="300" viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+  <defs>
+    <clipPath id="frame"><rect width="760" height="300" rx="12"/></clipPath>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#00E599"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="760" height="300" fill="#0B0F14"/>
+    <!-- window bar -->
+    <rect width="760" height="34" fill="#101720"/>
+    <circle cx="20" cy="17" r="5.5" fill="#FF5F56"/>
+    <circle cx="40" cy="17" r="5.5" fill="#FFBD2E"/>
+    <circle cx="60" cy="17" r="5.5" fill="#27C93F"/>
+    <text x="380" y="21.5" fill="#546A7B" font-size="12" text-anchor="middle">jackripper@id — zsh</text>
+    <line y1="34" x2="760" y2="34" stroke="#1B2733"/>
+
+    <g font-size="15" xml:space="preserve">
+      <!-- prompt line: types itself -->
+      <text x="30" y="78" fill="#00E5FF">&#10095; <tspan fill="#E6EDF3">whoami</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze"/>
+      </text>
+      <text x="30" y="108" fill="#8B98A5">jackripper-id — terminal tools &amp; android kernels
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.9s" fill="freeze"/>
+      </text>
+
+      <text x="30" y="150" fill="#00E5FF">&#10095; <tspan fill="#E6EDF3">ls ~/featured</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.7s" fill="freeze"/>
+      </text>
+      <text x="52" y="180" fill="#7CE8D5">ChatOn-Global            <tspan fill="#3D4F5D">global chat in your terminal</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.4s" fill="freeze"/>
+      </text>
+      <text x="52" y="206" fill="#7CE8D5">AjralDEV-Kernel-c2q      <tspan fill="#3D4F5D">KernelSU + NetHunter, one image</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.1s" fill="freeze"/>
+      </text>
+      <text x="52" y="232" fill="#7CE8D5">termux-beautify          <tspan fill="#3D4F5D">hacker theme for Termux</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.8s" fill="freeze"/>
+      </text>
+
+      <text x="30" y="272" fill="#00E5FF">&#10095; <tspan fill="#E6EDF3" font-style="italic">build small, ship fast, stay in the shell</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.6s" fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- typing cursor -->
+    <rect x="96" y="262" width="9" height="16" fill="url(#bar)">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <!-- thin scanning accent under the bar -->
+    <rect y="33" width="760" height="1.5" fill="url(#bar)" opacity="0.6">
+      <animate attributeName="x1" values="0;760" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="120;120" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="-120;760" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
