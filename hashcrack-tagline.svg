@@ -1,0 +1,23 @@
+<svg width="560" height="88" viewBox="0 0 560 88" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+  <defs>
+    <clipPath id="pill"><rect width="560" height="88" rx="14"/></clipPath>
+    <linearGradient id="gb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#pill)">
+    <rect width="560" height="88" fill="#070B10"/>
+    <rect y="0" width="560" height="2" fill="url(#gb)" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="24" y="38" font-size="17" fill="#00E5FF">❯ <tspan fill="#E6EDF3" font-weight="bold">hashcrack</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="64" font-size="13" fill="#8B98A5">39+ hash formats · 6 attack modes · CPU-only · Termux ready
+      <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.9s" fill="freeze"/>
+    </text>
+    <rect x="150" y="52" width="8" height="14" fill="url(#gb)">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
