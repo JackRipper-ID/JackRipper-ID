@@ -17,7 +17,7 @@
 
 <img src="https://raw.githubusercontent.com/JackRipper-ID/JackRipper-ID/main/hashcrack-demo.svg" width="100%" alt="hashcrack — animated cracking panel: braille spinner, gradient progress bar, speed sparkline, cracked flash" />
 
-**[HASHCRACK](https://github.com/JackRipper-ID/hashcrack)** — animated local hash cracker for CPU-only machines.
+**[HASHCRACK](https://github.com/JackRipper-ID/hashcrack)** — local hash tools cracker for CPU-only machines.
 39+ auto-detected hash formats, 6 attack modes (wordlist · rules · mask · PIN · literal · combo),
 encrypted-ZIP cracking, all-core multiprocessing, CPU boost on rooted Android — pure Python, zero required deps.
 
